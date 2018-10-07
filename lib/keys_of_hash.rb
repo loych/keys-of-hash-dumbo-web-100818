@@ -3,7 +3,9 @@ class Hash
    array =[]
     animals.each do |key, value|
       if value == arguements
-   array << key
-  end
+       array << key
+       end
+     end
+   end
   array
 end
