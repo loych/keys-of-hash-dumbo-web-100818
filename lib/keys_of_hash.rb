@@ -3,7 +3,7 @@ class Hash
   	new_array = []
     self.each do |key, value|
     	if value == arguments
-    		puts arguments
+    		puts #{arguments}
     	end
     end
     new_array
