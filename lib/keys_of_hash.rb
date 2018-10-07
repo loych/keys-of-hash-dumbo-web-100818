@@ -4,6 +4,7 @@ class Hash
     self.each do |key, value|
     	if value == arguments
     		puts #{arguments}
+    		new_array
     	end
     end
   end
