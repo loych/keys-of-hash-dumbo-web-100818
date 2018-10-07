@@ -1,11 +1,11 @@
 class Hash
   def keys_of(*arguments)
-   array =[]
+   new_array =[]
     animals.each do |key, value|
       if value == arguements
-       array << key
+       new_array << key
        end
      end
    end
-  array
+  new_array
 end
