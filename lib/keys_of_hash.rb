@@ -1,7 +1,8 @@
 class Hash
   def keys_of(*arguments)
    array =[]
-    i< arguments.length
+    animals.each do |key, value|
+      if value == arguements
    array << arguments[i]
    i= i+1
   end
