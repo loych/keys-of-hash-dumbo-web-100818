@@ -1,8 +1,8 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(*argument)
    new_array =[]
     self.each do |key, value|
-      if value == arguments
+      if value == argument
        new_array << key
        end
      end
