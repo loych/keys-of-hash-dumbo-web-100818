@@ -10,4 +10,4 @@ class Hash
      new_array
   end
 end
-*arguments
+return *arguments
