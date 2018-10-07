@@ -4,10 +4,10 @@ class Hash
   	new_array = []
     self.each do |key, value|
     	if value == arguments
+    	   value = *arguments
     		new_array << key
     	end
     end
     new_array
   end
 end
-keys_of(*arguments)
