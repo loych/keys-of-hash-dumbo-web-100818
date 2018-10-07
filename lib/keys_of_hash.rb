@@ -7,6 +7,6 @@ class Hash
     		new_array << key
     	end
     end
-    *new_array
+    new_array
   end
 end
