@@ -8,6 +8,6 @@ class Hash
     		puts #{arguments}
     	end
     end
+     new_array
   end
-  new_array
 end
