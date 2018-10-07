@@ -10,4 +10,4 @@ class Hash
     new_array
   end
 end
-keys_of *arguments
+keys_of(*arguments)
