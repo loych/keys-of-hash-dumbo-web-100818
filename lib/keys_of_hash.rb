@@ -4,7 +4,7 @@ class Hash
   	new_array = []
     self.each do |key, value|
     	if value == arguments
-    		puts argument
+    		new_array << key
     	end
     end
      new_array
