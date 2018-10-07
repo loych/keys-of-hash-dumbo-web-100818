@@ -1,6 +1,6 @@
 class Hash
   def keys_of(arguments)
-    i=o
+    i=0
    array =[]
    while i< arguments.length
    array << arguments[i]
