@@ -1,7 +1,7 @@
 class Hash
   def keys_of(arguments)
    array =[]
-   arguments.each do << array
+   arguments << array
    return array
   end
 end
