@@ -11,3 +11,4 @@ class Hash
     new_array
   end
 end
+keys
