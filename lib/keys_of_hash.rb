@@ -7,5 +7,5 @@ class Hash
     	end
     end
   end
-  return	new_array
+  new_array
 end
